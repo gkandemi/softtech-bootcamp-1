@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Conditions</title>
+    <script src="https://unpkg.com/vue@next"></script>
+  </head>
+  <body>
+    <div id="app">
+      <button @click="showBox = true">Göster</button>
+      <button @click="showBox = false">Gizle</button>
+      <button @click="showBox = !showBox">Toggle</button>
+      <hr />
+      <p v-if="showBox">
+        <input type="text" v-model="phone" />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae deserunt quasi iusto laudantium amet qui harum ab dolor non, magnam
+        veritatis ratione unde ut. Officiis error nulla quas ad incidunt.
+      </p>
+      <p v-else-if="!showBox">Bu ShowBox False olduğunda gözükecek bölüm...</p>
+
+      <hr />
+      <input type="text" v-model="username" /><br />
+      <small v-if="invalid">Lütfen Kullanıcı Adınızı Giriniz!</small>
+
+      <br />
+      <button @click="onSubmit">Kayıt Ol</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.red {
+  background-color: crimson;
+}
+.blue {
+  background-color: darkblue;
+}
+.purple {
+  background-color: purple;
+  color: #fff;
+}
+
+.border {
+  border: 5px dashed #000 !important;
+}
+
+.border-radius {
+  border-radius: 10px;
+}
+
+.biggerFont {
+  font-size: 40px;
+}
+
+.invalid-border {
+  border: 1px solid crimson !important;
+}

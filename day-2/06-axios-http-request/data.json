@@ -1,0 +1,44 @@
+{
+  "favorites": [
+    {
+      "Title": "Hababam Sinifi",
+      "Year": "1975",
+      "imdbID": "tt0252487",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOWI4NGQ1M2YtNDM2Yi00YzAzLWJmZmYtMjkxZWMwNmM5Y2NhXkEyXkFqcGdeQXVyMjQ2OTI2MzU@._V1_SX300.jpg",
+      "id": 1
+    },
+    {
+      "Title": "Hababam Sinifi Güle Güle",
+      "Year": "1981",
+      "imdbID": "tt0488834",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZDUwNThmZmYtMjQ0Mi00NDFjLWJjNmMtNTEyYjc2ODJmZjZjXkEyXkFqcGdeQXVyNTM3NzExMDQ@._V1_SX300.jpg",
+      "id": 2
+    },
+    {
+      "Title": "Hababam Sinifi Yeniden",
+      "Year": "2019",
+      "imdbID": "tt8941422",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYTYyNTg2ZDEtZWY1Mi00NGMzLWI5OGMtODk4ZGNjOWMzMzczXkEyXkFqcGdeQXVyMTkyOTU2NzQ@._V1_SX300.jpg",
+      "id": 3
+    },
+    {
+      "Title": "Iron Man",
+      "Year": "2008",
+      "imdbID": "tt0371746",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg",
+      "id": 4
+    },
+    {
+      "Title": "The Man from Earth",
+      "Year": "2007",
+      "imdbID": "tt0756683",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzQ5NGQwOTUtNWJlZi00ZTFiLWI0ZTEtOGU3MTA2ZGU5OWZiXkEyXkFqcGdeQXVyMTczNjQwOTY@._V1_SX300.jpg",
+      "id": 5
+    }
+  ]
+}

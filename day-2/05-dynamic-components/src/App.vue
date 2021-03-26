@@ -11,7 +11,9 @@
           <!-- <red-comp v-if="activeComponent === 'red'"></red-comp>
           <blue-comp v-if="activeComponent === 'blue'"></blue-comp>
           <green-comp v-if="activeComponent === 'green'"></green-comp> -->
-          <component @payback-event="eventWorked" :is="activeComponent"> {{ activeComponent }} Bölgesidir... </component>
+          <keep-alive>
+            <component @payback-event="eventWorked" :is="activeComponent"> {{ activeComponent }} Bölgesidir... </component>
+          </keep-alive>
         </div>
       </div>
     </div>
